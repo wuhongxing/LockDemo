@@ -20,6 +20,7 @@
 		1BA8488B2433619A00E1D190 /* SerialQueueDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA8488A2433619A00E1D190 /* SerialQueueDemo.swift */; };
 		1BA8488D24336E4500E1D190 /* SemaphoreDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA8488C24336E4500E1D190 /* SemaphoreDemo.swift */; };
 		1BA8488F24339A7700E1D190 /* SynchronizedDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA8488E24339A7700E1D190 /* SynchronizedDemo.swift */; };
+		1BA848912433A49200E1D190 /* ReadWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA848902433A49200E1D190 /* ReadWrite.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		1BA8488A2433619A00E1D190 /* SerialQueueDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialQueueDemo.swift; sourceTree = "<group>"; };
 		1BA8488C24336E4500E1D190 /* SemaphoreDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemaphoreDemo.swift; sourceTree = "<group>"; };
 		1BA8488E24339A7700E1D190 /* SynchronizedDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchronizedDemo.swift; sourceTree = "<group>"; };
+		1BA848902433A49200E1D190 /* ReadWrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadWrite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				1BA8488A2433619A00E1D190 /* SerialQueueDemo.swift */,
 				1BA8488C24336E4500E1D190 /* SemaphoreDemo.swift */,
 				1BA8488E24339A7700E1D190 /* SynchronizedDemo.swift */,
+				1BA848902433A49200E1D190 /* ReadWrite.swift */,
 				1BA848702431E18F00E1D190 /* Main.storyboard */,
 				1BA848732431E19000E1D190 /* Assets.xcassets */,
 				1BA848752431E19000E1D190 /* LaunchScreen.storyboard */,
@@ -167,6 +170,7 @@
 				1BA8486F2431E18F00E1D190 /* ViewController.swift in Sources */,
 				1BA8486B2431E18F00E1D190 /* AppDelegate.swift in Sources */,
 				1BA84887243219C100E1D190 /* UnfairLockDemo.swift in Sources */,
+				1BA848912433A49200E1D190 /* ReadWrite.swift in Sources */,
 				1BA8488F24339A7700E1D190 /* SynchronizedDemo.swift in Sources */,
 				1BA8486D2431E18F00E1D190 /* SceneDelegate.swift in Sources */,
 			);

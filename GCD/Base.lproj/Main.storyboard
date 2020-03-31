@@ -39,6 +39,14 @@
                                     <action selector="saveDrawMoney:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SXA-05-htA"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dR-jM-qeC">
+                                <rect key="frame" x="14" y="194" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="读写安全"/>
+                                <connections>
+                                    <action selector="readAndWrite:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OOy-Kg-Ssg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

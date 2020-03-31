@@ -66,9 +66,16 @@ class ViewController: UIViewController {
         demo.saleTickets()
     }
     
+    //MARK: 存钱问题
     @IBAction func saveDrawMoney(_ sender: Any) {
         demo.saveDrawMoney()
     }
+    
+    var rw = ReadWrite()
+    @IBAction func readAndWrite(_ sender: Any) {
+        rw.barrierlock()
+    }
+    
     
 }
 
