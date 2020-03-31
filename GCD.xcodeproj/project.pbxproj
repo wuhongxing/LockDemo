@@ -13,6 +13,13 @@
 		1BA848722431E18F00E1D190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA848702431E18F00E1D190 /* Main.storyboard */; };
 		1BA848742431E19000E1D190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BA848732431E19000E1D190 /* Assets.xcassets */; };
 		1BA848772431E19000E1D190 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA848752431E19000E1D190 /* LaunchScreen.storyboard */; };
+		1BA8488324320CF400E1D190 /* UnlockDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA8488224320CF400E1D190 /* UnlockDemo.swift */; };
+		1BA848852432109F00E1D190 /* OSSpinLockDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA848842432109F00E1D190 /* OSSpinLockDemo.swift */; };
+		1BA84887243219C100E1D190 /* UnfairLockDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA84886243219C100E1D190 /* UnfairLockDemo.swift */; };
+		1BA8488924321AC300E1D190 /* PthreadMutexDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA8488824321AC300E1D190 /* PthreadMutexDemo.swift */; };
+		1BA8488B2433619A00E1D190 /* SerialQueueDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA8488A2433619A00E1D190 /* SerialQueueDemo.swift */; };
+		1BA8488D24336E4500E1D190 /* SemaphoreDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA8488C24336E4500E1D190 /* SemaphoreDemo.swift */; };
+		1BA8488F24339A7700E1D190 /* SynchronizedDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA8488E24339A7700E1D190 /* SynchronizedDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		1BA848732431E19000E1D190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BA848762431E19000E1D190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BA848782431E19000E1D190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BA8488224320CF400E1D190 /* UnlockDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockDemo.swift; sourceTree = "<group>"; };
+		1BA848842432109F00E1D190 /* OSSpinLockDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSSpinLockDemo.swift; sourceTree = "<group>"; };
+		1BA84886243219C100E1D190 /* UnfairLockDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnfairLockDemo.swift; sourceTree = "<group>"; };
+		1BA8488824321AC300E1D190 /* PthreadMutexDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PthreadMutexDemo.swift; sourceTree = "<group>"; };
+		1BA8488A2433619A00E1D190 /* SerialQueueDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialQueueDemo.swift; sourceTree = "<group>"; };
+		1BA8488C24336E4500E1D190 /* SemaphoreDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemaphoreDemo.swift; sourceTree = "<group>"; };
+		1BA8488E24339A7700E1D190 /* SynchronizedDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchronizedDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +73,13 @@
 				1BA8486A2431E18F00E1D190 /* AppDelegate.swift */,
 				1BA8486C2431E18F00E1D190 /* SceneDelegate.swift */,
 				1BA8486E2431E18F00E1D190 /* ViewController.swift */,
+				1BA8488224320CF400E1D190 /* UnlockDemo.swift */,
+				1BA848842432109F00E1D190 /* OSSpinLockDemo.swift */,
+				1BA84886243219C100E1D190 /* UnfairLockDemo.swift */,
+				1BA8488824321AC300E1D190 /* PthreadMutexDemo.swift */,
+				1BA8488A2433619A00E1D190 /* SerialQueueDemo.swift */,
+				1BA8488C24336E4500E1D190 /* SemaphoreDemo.swift */,
+				1BA8488E24339A7700E1D190 /* SynchronizedDemo.swift */,
 				1BA848702431E18F00E1D190 /* Main.storyboard */,
 				1BA848732431E19000E1D190 /* Assets.xcassets */,
 				1BA848752431E19000E1D190 /* LaunchScreen.storyboard */,
@@ -138,8 +159,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BA8488924321AC300E1D190 /* PthreadMutexDemo.swift in Sources */,
+				1BA848852432109F00E1D190 /* OSSpinLockDemo.swift in Sources */,
+				1BA8488B2433619A00E1D190 /* SerialQueueDemo.swift in Sources */,
+				1BA8488D24336E4500E1D190 /* SemaphoreDemo.swift in Sources */,
+				1BA8488324320CF400E1D190 /* UnlockDemo.swift in Sources */,
 				1BA8486F2431E18F00E1D190 /* ViewController.swift in Sources */,
 				1BA8486B2431E18F00E1D190 /* AppDelegate.swift in Sources */,
+				1BA84887243219C100E1D190 /* UnfairLockDemo.swift in Sources */,
+				1BA8488F24339A7700E1D190 /* SynchronizedDemo.swift in Sources */,
 				1BA8486D2431E18F00E1D190 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
